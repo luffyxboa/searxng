@@ -1,0 +1,14 @@
+general:
+  instance_name: "Private SearXNG"
+  public_instance: false
+
+server:
+  port: 8080
+  bind_address: 0.0.0.0
+  secret_key: "REPLACE_WITH_LONG_RANDOM_STRING"
+  limiter: false
+
+search:
+  formats:
+    - html
+    - json
