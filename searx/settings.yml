@@ -112,9 +112,14 @@ server:
     X-Robots-Tag: noindex, nofollow
     Referrer-Policy: no-referrer
 
+ valkey:
+  # URL to connect valkey database. Is overwritten by ${SEARXNG_VALKEY_URL}.
+  # https://docs.searxng.org/admin/settings/settings_valkey.html#settings-valkey
+  url: valkey://localhost:6379/0
+  
   
 redis:
-  url: redis://DaP1iEQitb1KR1iNs9BDmxwi4FzosYrM@redis-11661.crce263.ap-south-1-1.ec2.cloud.redislabs.com:11661
+  url: redis://DaP1iEQitb1KR1iNs9BDmxwi4FzosYrM@redis-11661.crce263.ap-south-1-1.ec2.cloud.redislabs.com:11661/0
 
 ui:
   # Custom static path - leave it blank if you didn't change
