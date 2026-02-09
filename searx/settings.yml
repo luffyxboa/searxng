@@ -345,6 +345,11 @@ engines:
     shortcut: 360so
     timeout: 10.0
     disabled: true
+    
+  - name: ahmia
+    disabled: true
+  - name: torch
+    disabled: true
 
   - name: 360search videos
     engine: 360search_videos
