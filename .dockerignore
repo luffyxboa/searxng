@@ -1,6 +1,9 @@
 *
-
+!/
+!settings.yml
+!Dockerfile
+!container/
 !container/entrypoint.sh
+!searx/
 !searx/**
 !requirements*.txt
-!settings.yml
