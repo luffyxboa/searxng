@@ -1,9 +1,4 @@
-*
-!/
-!settings.yml
-!Dockerfile
-!container/
-!container/entrypoint.sh
-!searx/
-!searx/**
-!requirements*.txt
+.git
+.gitignore
+__pycache__/
+*.pyc
