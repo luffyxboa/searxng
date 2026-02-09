@@ -117,6 +117,9 @@ valkey:
   # https://docs.searxng.org/admin/settings/settings_valkey.html#settings-valkey
   # url: valkey://localhost:6379/0
   url: false
+  
+redis:
+  url: redis://DaP1iEQitb1KR1iNs9BDmxwi4FzosYrM@redis-11661.crce263.ap-south-1-1.ec2.cloud.redislabs.com:11661
 
 ui:
   # Custom static path - leave it blank if you didn't change
