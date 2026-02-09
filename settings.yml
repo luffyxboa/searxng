@@ -118,7 +118,7 @@ valkey:
   
   
 redis:
-  url: redis://DaP1iEQitb1KR1iNs9BDmxwi4FzosYrM@redis-11661.crce263.ap-south-1-1.ec2.cloud.redislabs.com:11661
+  url: redis://DaP1iEQitb1KR1iNs9BDmxwi4FzosYrM@redis-11661.crce263.ap-south-1-1.ec2.cloud.redislabs.com:11661/0
 
 ui:
   # Custom static path - leave it blank if you didn't change
