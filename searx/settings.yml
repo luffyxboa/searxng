@@ -76,11 +76,13 @@ search:
   # formats: [html, csv, json, rss]
   formats:
     - html
+    - json
+    - csv
 
 server:
   # Is overwritten by ${SEARXNG_PORT} and ${SEARXNG_BIND_ADDRESS}
-  port: 8888
-  bind_address: "127.0.0.1"
+  port: 8080
+  bind_address: "0.0.0.0"
   # public URL of the instance, to ensure correct inbound links. Is overwritten
   # by ${SEARXNG_BASE_URL}.
   base_url: false  # "http://example.com/location"
@@ -89,7 +91,7 @@ server:
   limiter: false
   # enable features designed only for public instances.
   # Is overwritten by ${SEARXNG_PUBLIC_INSTANCE}
-  public_instance: false
+  public_instance: true
 
   # If your instance owns a /etc/searxng/settings.yml file, then set the following
   # values there.
